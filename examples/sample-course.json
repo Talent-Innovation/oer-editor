@@ -1,0 +1,39 @@
+{
+  "courseTitle": "Algorithms of Social Media",
+  "language": "en",
+  "objectives": [
+    "Understand the principle of recommendation algorithms",
+    "Discuss their influence on user behaviour",
+    "Learn strategies to critically evaluate online content"
+  ],
+  "lessons": [
+    {
+      "title": "How Algorithms Work",
+      "duration": "45 min",
+      "content": "An introduction to recommendation systems, filtering and ranking."
+    },
+    {
+      "title": "What the Algorithm Shows Us",
+      "duration": "45 min",
+      "content": "Examples of content curation and echo chambers."
+    },
+    {
+      "title": "Staying Critical Online",
+      "duration": "45 min",
+      "content": "Tips for fact-checking and recognizing biases."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the main purpose of a recommendation algorithm?",
+      "type": "MCQ",
+      "options": ["To improve phone performance", "To keep users engaged", "To choose the fastest internet"],
+      "answer": "To keep users engaged"
+    },
+    {
+      "question": "Give one example of how algorithms influence what you see online.",
+      "type": "Open"
+    }
+  ],
+  "license": "CC BY 4.0"
+}
