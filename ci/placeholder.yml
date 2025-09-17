@@ -1,0 +1,19 @@
+# CI Pipeline Placeholder
+# This file documents our plan for continuous integration (CI).
+
+name: CI Pipeline (Placeholder)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Placeholder step
+        run: echo "CI pipeline will run linting, schema validation, and SCORM/xAPI export tests here."
