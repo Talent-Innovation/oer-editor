@@ -1,0 +1,12 @@
+# Continuous Integration (CI)
+
+This folder contains configuration files for automated testing and validation.
+
+## Planned CI steps:
+- **Linting:** check JSON course templates and code style.
+- **Schema validation:** verify generated course data follows the defined schema.
+- **SCORM/xAPI tests:** automatically generate and validate sample packages.
+- **License check:** ensure all media files include proper attribution (CC0/CC BY).
+- **Accessibility audit:** run AXE on representative screens (target ≥ 95% WCAG 2.1 AA).
+
+Once the project reaches M2, full CI workflows will be enabled.
